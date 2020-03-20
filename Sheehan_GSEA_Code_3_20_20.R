@@ -50,7 +50,7 @@ for (translat in BRCA_data$Ensembl_ID[1:row_total]){
     entrez_dictionary <- c(entrez_dictionary, newline$entrezgene_id) ####grabs the Entrez conversion for all other cases
   }
 }
-BRCA_genes_altered <- cbind(as.data.frame(entrez_dictionary), BRCA_genes)
+BRCA_genes_altered <- cbind(as.data.frame(entrez_dictionary), BRCA_data)
 ########Now with all genes having their conversion name, we can manipulate the TCGA data for GSEA analysis
 global_mean_gene_expression <- filter(BRCA_genes_altered, BRCA_genes_altered$entrez_dictionary==571)[1, 3:1219] %>% #gives you the global mean of the gene of interest, 571 is entrez ID of BACH1
   sum() / 1219
