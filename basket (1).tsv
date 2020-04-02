@@ -1,0 +1,97 @@
+GO:0017180	biological_process	peptidyl-diphthine biosynthetic process from peptidyl-histidine
+GO:0042181	biological_process	ketone biosynthetic process
+GO:0042182	biological_process	ketone catabolic process
+GO:0042723	biological_process	thiamine-containing compound metabolic process
+GO:0045923	biological_process	positive regulation of fatty acid metabolic process
+GO:0006631	biological_process	fatty acid metabolic process
+GO:0016053	biological_process	organic acid biosynthetic process
+GO:0016054	biological_process	organic acid catabolic process
+GO:0006703	biological_process	estrogen biosynthetic process
+GO:0006702	biological_process	androgen biosynthetic process
+GO:0006757	biological_process	ATP generation from ADP
+GO:0006769	biological_process	nicotinamide metabolic process
+GO:0006740	biological_process	NADPH regeneration
+GO:0006749	biological_process	glutathione metabolic process
+GO:0042616	biological_process	paclitaxel metabolic process
+GO:0052573	biological_process	UDP-D-galactose metabolic process
+GO:1904253	biological_process	positive regulation of bile acid metabolic process
+GO:0006011	biological_process	UDP-glucose metabolic process
+GO:0008654	biological_process	phospholipid biosynthetic process
+GO:0032801	biological_process	receptor catabolic process
+GO:0030202	biological_process	heparin metabolic process
+GO:0006119	biological_process	oxidative phosphorylation
+GO:0006139	biological_process	nucleobase-containing compound metabolic process
+GO:0006069	biological_process	ethanol oxidation
+GO:0030258	biological_process	lipid modification
+GO:0042357	biological_process	thiamine diphosphate metabolic process
+GO:0042360	biological_process	vitamin E metabolic process
+GO:0090356	biological_process	negative regulation of auxin metabolic process
+GO:1905038	biological_process	regulation of membrane lipid metabolic process
+GO:0031945	biological_process	positive regulation of glucocorticoid metabolic process
+GO:0090209	biological_process	negative regulation of triglyceride metabolic process
+GO:0090207	biological_process	regulation of triglyceride metabolic process
+GO:0090208	biological_process	positive regulation of triglyceride metabolic process
+GO:0006797	biological_process	polyphosphate metabolic process
+GO:0031331	biological_process	positive regulation of cellular catabolic process
+GO:0031329	biological_process	regulation of cellular catabolic process
+GO:0031327	biological_process	negative regulation of cellular biosynthetic process
+GO:0031328	biological_process	positive regulation of cellular biosynthetic process
+GO:0006560	biological_process	proline metabolic process
+GO:0006558	biological_process	L-phenylalanine metabolic process
+GO:0043467	biological_process	regulation of generation of precursor metabolites and energy
+GO:0006914	biological_process	autophagy
+GO:1903019	biological_process	negative regulation of glycoprotein metabolic process
+GO:1903020	biological_process	positive regulation of glycoprotein metabolic process
+GO:0051176	biological_process	positive regulation of sulfur metabolic process
+GO:0051174	biological_process	regulation of phosphorus metabolic process
+GO:0051193	biological_process	regulation of cofactor metabolic process
+GO:0051187	biological_process	cofactor catabolic process
+GO:0051188	biological_process	cofactor biosynthetic process
+GO:0002092	biological_process	positive regulation of receptor internalization
+GO:1901857	biological_process	positive regulation of cellular respiration
+GO:1901856	biological_process	negative regulation of cellular respiration
+GO:0033240	biological_process	positive regulation of cellular amine metabolic process
+GO:2000377	biological_process	regulation of reactive oxygen species metabolic process
+GO:2000376	biological_process	positive regulation of oxygen metabolic process
+GO:2000375	biological_process	negative regulation of oxygen metabolic process
+GO:2000379	biological_process	positive regulation of reactive oxygen species metabolic process
+GO:2000378	biological_process	negative regulation of reactive oxygen species metabolic process
+GO:0033471	biological_process	GDP-L-galactose metabolic process
+GO:0001921	biological_process	positive regulation of receptor recycling
+GO:1901685	biological_process	glutathione derivative metabolic process
+GO:0072521	biological_process	purine-containing compound metabolic process
+GO:0045017	biological_process	glycerolipid biosynthetic process
+GO:1904734	biological_process	positive regulation of electron transfer activity
+GO:1904733	biological_process	negative regulation of electron transfer activity
+GO:2000611	biological_process	positive regulation of thyroid hormone generation
+GO:0015980	biological_process	energy derivation by oxidation of organic compounds
+GO:0015975	biological_process	energy derivation by oxidation of reduced inorganic compounds
+GO:0009052	biological_process	pentose-phosphate shunt, non-oxidative branch
+GO:0046185	biological_process	aldehyde catabolic process
+GO:0046184	biological_process	aldehyde biosynthetic process
+GO:0097384	biological_process	cellular lipid biosynthetic process
+GO:1902224	biological_process	ketone body metabolic process
+GO:0061722	biological_process	sulphoglycolysis
+GO:0061719	biological_process	glucose catabolic process to pyruvate utilizing ADP
+GO:0010676	biological_process	positive regulation of cellular carbohydrate metabolic process
+GO:0034645	biological_process	cellular macromolecule biosynthetic process
+GO:0009851	biological_process	auxin biosynthetic process
+GO:0046467	biological_process	membrane lipid biosynthetic process
+GO:0010563	biological_process	negative regulation of phosphorus metabolic process
+GO:0010562	biological_process	positive regulation of phosphorus metabolic process
+GO:0010565	biological_process	regulation of cellular ketone metabolic process
+GO:0044598	biological_process	doxorubicin metabolic process
+GO:0022900	biological_process	electron transport chain
+GO:0010871	biological_process	negative regulation of receptor biosynthetic process
+GO:0010873	biological_process	positive regulation of cholesterol esterification
+GO:0010872	biological_process	regulation of cholesterol esterification
+GO:0032268	biological_process	regulation of cellular protein metabolic process
+GO:0032269	biological_process	negative regulation of cellular protein metabolic process
+GO:0044242	biological_process	cellular lipid catabolic process
+GO:0044270	biological_process	cellular nitrogen compound catabolic process
+GO:0044271	biological_process	cellular nitrogen compound biosynthetic process
+GO:0044275	biological_process	cellular carbohydrate catabolic process
+GO:0019409	biological_process	aerobic respiration, using ammonia as electron donor
+GO:0019331	biological_process	anaerobic respiration, using ammonium as electron donor
+GO:0019332	biological_process	aerobic respiration, using nitrite as electron donor
+GO:0046951	biological_process	ketone body biosynthetic process

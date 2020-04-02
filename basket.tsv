@@ -1,0 +1,45 @@
+﻿GO:0042133	biological_process	neurotransmitter metabolic process
+GO:0042180	biological_process	cellular ketone metabolic process
+GO:0042810	biological_process	pheromone metabolic process
+GO:0006730	biological_process	one-carbon metabolic process
+GO:0006725	biological_process	cellular aromatic compound metabolic process
+GO:0006790	biological_process	sulfur compound metabolic process
+GO:0006793	biological_process	phosphorus metabolic process
+GO:0017144	biological_process	drug metabolic process
+GO:0006082	biological_process	organic acid metabolic process
+GO:0006081	biological_process	cellular aldehyde metabolic process
+GO:0006091	biological_process	generation of precursor metabolites and energy
+GO:0043094	biological_process	cellular metabolic compound salvage
+GO:0006805	biological_process	xenobiotic metabolic process
+GO:0018942	biological_process	organometal metabolic process
+GO:0006413	biological_process	translational initiation
+GO:0031325	biological_process	positive regulation of cellular metabolic process
+GO:0031323	biological_process	regulation of cellular metabolic process
+GO:0031324	biological_process	negative regulation of cellular metabolic process
+GO:0006575	biological_process	cellular modified amino acid metabolic process
+GO:0043449	biological_process	cellular alkene metabolic process
+GO:0043446	biological_process	cellular alkane metabolic process
+GO:0043452	biological_process	cellular alkyne metabolic process
+GO:0090345	biological_process	cellular organohalogen metabolic process
+GO:0051186	biological_process	cofactor metabolic process
+GO:0110051	biological_process	metabolite repair
+GO:0008218	biological_process	bioluminescence
+GO:0072593	biological_process	reactive oxygen species metabolic process
+GO:0001887	biological_process	selenium compound metabolic process
+GO:0015979	biological_process	photosynthesis
+GO:0062097	biological_process	chemosynthesis
+GO:2001290	biological_process	hydroperoxide metabolic process
+GO:0097354	biological_process	prenylation
+GO:0009404	biological_process	toxin metabolic process
+GO:0010191	biological_process	mucilage metabolic process
+GO:0034641	biological_process	cellular nitrogen compound metabolic process
+GO:0009850	biological_process	auxin metabolic process
+GO:0044107	biological_process	cellular alcohol metabolic process
+GO:0034754	biological_process	cellular hormone metabolic process
+GO:0046483	biological_process	heterocycle metabolic process
+GO:0044249	biological_process	cellular biosynthetic process
+GO:0044248	biological_process	cellular catabolic process
+GO:0044255	biological_process	cellular lipid metabolic process
+GO:0044260	biological_process	cellular macromolecule metabolic process
+GO:0044262	biological_process	cellular carbohydrate metabolic process
+GO:0046950	biological_process	cellular ketone body metabolic process
