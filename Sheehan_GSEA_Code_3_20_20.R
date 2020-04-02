@@ -1,4 +1,4 @@
-rm(list = ls())
+
 ######## You may need to initially download these bioinformatics packages for the analyses 
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
