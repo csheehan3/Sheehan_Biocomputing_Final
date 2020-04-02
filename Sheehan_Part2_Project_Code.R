@@ -7,10 +7,10 @@ library("ggpubr")
 library("biomaRt")
 library("rlist")
 ######need to get rid of the genes with average value 0
-BRCA_data <- read_tsv(file = "TCGA-BRCA_fpkm.tsv")
+BRCA_data <- read_tsv(file = "TCGA_example_data")
 BRCA_data <- cbind(data.frame(average_values = apply(dplyr::select(BRCA_data, matches("TCGA")),1,mean)), BRCA_data)
 BRCA_data <- filter(BRCA_data, BRCA_data$average_values!=0) ##these two steps are to eliminate genes filled with zeroes from the data
-##### run 500 simulations of correlating one random gene with a set of 200 other random genes
+##### run 500 simulations of correlating one random gene with a set of 100 other random genes
 ##### this is done with simulation function. Input is simulation_function(the_dataframe, size of gene set, number of simulations)
 source("simulation_function.R")
 simulation_function(BRCA_data, 100, 500)

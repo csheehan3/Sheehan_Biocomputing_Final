@@ -1,6 +1,6 @@
 fgsea_function <- function(the_dataframe, the_gene){
   global_mean_gene_expression <- filter(the_dataframe, the_dataframe$entrez_dictionary==the_gene) %>% 
-    dplyr::select(matches("TCGA")) %>% 
+    dplyr::select(matches("TCGA")) %>% ###get only the columns for tumor samples
     as.numeric() %>% 
     mean()
   gene_row <- filter(the_dataframe, the_dataframe$entrez_dictionary==the_gene) %>% dplyr::select(matches("TCGA"))
@@ -18,6 +18,7 @@ fgsea_function <- function(the_dataframe, the_gene){
   ranks_vector <- entrez_expression_dataframe$difference_in_expression
   names(ranks_vector) <- as.character(entrez_expression_dataframe$entrez_dictionary)
   assign("ranks_vector", ranks_vector, envir=.GlobalEnv) #This is used later so need to save to global environment
+  library(fgsea)
   pathways <- reactomePathways(as.character(entrez_expression_dataframe$entrez_dictionary)) #grabs potential pathways to explore with gsea based on the genes being submitted
   fgseaRes <- fgsea(pathways, ranks_vector, nperm=1000, maxSize=500)
   #######Here we produce can produce a number of graphs from the output of the GSEA analysis.

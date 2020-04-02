@@ -1,4 +1,4 @@
-rm(list = ls())
+
 ######## You may need to initially download these bioinformatics packages for the analyses 
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
@@ -13,11 +13,6 @@ if (!requireNamespace("GEOquery", quietly = TRUE))
 if (!requireNamespace("devtools", quietly = TRUE))
   install.packages("devtools")
 library(GEOquery)
-######## THIS WILL DOWNLOAD A LARGE FILE >300 MB TO YOUR DIRECTORY!!!
-if (file.exists("TCGA-BRCA_fpkm.tsv")==FALSE){
-  download.file("https://gdc.xenahubs.net/download/TCGA-BRCA.htseq_fpkm.tsv.gz", "TCGA-BRCA.htseq_fpkm.tsv", method = "auto", quiet=FALSE) ##Takes around 2min
-  gunzip("TCGA-BRCA.htseq_fpkm.tsv", destname = gsub("[.]gz$", "", "TCGA-BRCA_fpkm.tsv"), overwrite=TRUE) 
-}
 library(devtools)
 library(tidyverse)
 library("ggpubr")
@@ -26,9 +21,10 @@ library("biomaRt")
 library("rlist")
 ######## Ensemble_ID gene names are converted to Entrez ID names for the fgsea package 
 mart <- useEnsembl(biomart = "ensembl", dataset = "hsapiens_gene_ensembl", mirror = "useast") ##servers can get overloaded, change mirror to circumvent this issue
-BRCA_data <- read_tsv(file = "TCGA-BRCA_fpkm.tsv")
+BRCA_data <- read_tsv(file = "TCGA_example_data")
 Ensembl_ID_list <- c()
-for (ensemblename in BRCA_data[1:nrow(BRCA_data), 1]){ #gene names are collected into a list vector 
+Ensembl_ID_list <- c()
+for (ensemblename in dplyr::select(BRCA_data, matches("Ensembl"))){ #gene names are collected into a list vector 
   Ensembl_ID_list <- c(ensemblename, Ensembl_ID_list)
 }
 cleaved_gene_names <- str_replace(Ensembl_ID_list, #Ensemble_ID gene names are modified to a more general ID name
